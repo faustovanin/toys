@@ -1,0 +1,90 @@
+body {
+	font-family: Helvetica;
+	background-color: #eeeeee;
+}
+div#cabecalho {
+	margin: auto;
+	width: 70%;
+}
+h1 {
+	text-align: center;
+	color: #6b5b95;
+}
+div#imagens {
+	margin: auto;
+	width: 60%;
+	text-align:center;
+}
+div#imagens img {
+	height: 300px;
+	width: auto;
+	/*margin-bottom: 50px;*/
+	margin-top: 50px;
+}
+
+.speak-standby {
+  background-color: silver;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.speak-standby:hover {
+	background-color: #b5e7a0;
+}
+
+.speak-standby img {
+	width: 50px !important; 
+	height: auto !important;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+}
+
+.speak-recording {
+  background-color: #d64161;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.speak-recording img {
+	width: 50px !important; 
+	height: auto !important;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+}
+
+div#rodape {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	border-top: silver thin;
+	text-align: right;
+	background-color: white;
+}
+
+div#rodape img {
+	height: 100px;
+	width: auto;
+	visibility: hidden;
+}
+
+div#rodape .next {
+	background-color: #b5e7a0;
+	border-radius: 10%;
+	min-width: 30px;
+	min-height: 50px;
+	visibility: hidden;
+}

@@ -1,0 +1,41 @@
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="viewport" content="width=device-width">
+
+	    <title>Speech color changer</title>
+
+	    <link rel="stylesheet" href="style.css">
+	    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	    <!--[if lt IE 9]>
+	      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
+	</head>
+
+  <body>
+  	<div id="cabecalho">
+    	<h1>Clube do Código - Toys</h1>
+    </div>
+
+    <div id="imagens">
+    	<img class="mySlides" src="img/urso.png"/>
+    	<img class="mySlides" src="img/cavalo.png"/>
+    	<img class="mySlides" src="img/trem.png"/>
+    	<p id="result">Qual é o brinquedo?</p>
+    	<br/>
+    	<button id="speaker" class="speak-standby">
+    		<img src="img/mic.svg"/>
+    	</button>
+	    
+   	</div>
+
+   	<div id="rodape">
+   		<button class="next">Avançar</button>
+        <img id="gif" src="img/check.gif"/>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
